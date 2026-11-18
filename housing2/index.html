@@ -1148,7 +1148,7 @@
     slides[cur].classList.add('is-active'); dots[cur].setAttribute('aria-selected', 'true');
     if (!reduce) { void slides[cur].offsetWidth; slides[cur].classList.add('is-typing'); }
   }
-  function start() { stop(); timer = setInterval(function () { go(cur + 1); }, 4500); }
+  function start() { stop(); timer = setInterval(function () { go(cur + 1); }, 1700); }
   function stop() { if (timer) clearInterval(timer); timer = null; }
   Array.prototype.forEach.call(dots, function (d, i) { d.addEventListener('click', function () { go(i); start(); }); });
   car.addEventListener('mouseenter', stop); car.addEventListener('mouseleave', start);
