@@ -9,13 +9,13 @@
 </script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>工務店の売上を爆増させるSEO支援｜「おすすめ」検索で選ばれる集客｜株式会社Cominka</title>
-<meta name="description" content="家づくりを決めた人が最後に検索する「地域名＋工務店 おすすめ」。受注にいちばん近いその検索で上位を狙い、資料請求・来場予約を増やすSEOを、売上目標から逆算して設計します。">
+<title>工務店・リフォーム会社のSEO/AIO支援｜株式会社Cominka</title>
+<meta name="description" content="住宅設備メーカーから工務店・リフォーム会社まで、住まいの業界の集客を支援してきたCominkaが、資料請求・見積もり依頼を増やすSEO/AIO施策を設計・実行します。無料相談受付中。">
 <link rel="canonical" href="https://yori-ai.com/lp-consulting01/housing/">
 <meta name="robots" content="noindex, nofollow"><!-- 広告LPのため検索除外。必要に応じて変更してください -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="工務店の売上を爆増させるSEO支援｜株式会社Cominka">
-<meta property="og:description" content="受注にいちばん近い「地域名＋工務店 おすすめ」検索で上位を狙い、資料請求を増やすSEO。売上目標から逆算して設計します。">
+<meta property="og:title" content="工務店・リフォーム会社のSEO/AIO支援｜株式会社Cominka">
+<meta property="og:description" content="工務店・リフォームの、資料請求が増えるSEO。まずは無料で、貴社の「反響を増やす道筋」を見える化します。">
 <meta property="og:image" content="../images/fv-team.jpg">
 <meta name="theme-color" content="#E24624">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -160,130 +160,6 @@
   .rcar__nav { margin-top: 18px; gap: 14px; }
   .rcar__btn { width: 40px; height: 40px; }
 }
-/* ===== 刷新（おすすめ検索インサイト） ===== */
-.fv__visual--serp { height: auto !important; display: flex; flex-direction: column; justify-content: center; }
-.serp { background: var(--white); border-radius: 28px; box-shadow: 0 24px 60px rgba(46,38,34,.12); padding: 28px 28px 18px; position: relative; }
-.serp__bar { display: flex; align-items: center; gap: 12px; border: 1.5px solid var(--line); border-radius: 999px; padding: 14px 20px; box-shadow: 0 2px 8px rgba(46,38,34,.06); }
-.serp__ic { width: 22px; height: 22px; color: var(--muted); flex: none; }
-.serp__q { font-size: 19px; font-weight: 700; color: var(--brown); white-space: nowrap; }
-.serp__caret { width: 2px; height: 22px; background: var(--orange); animation: serpBlink 1s steps(1) infinite; }
-@keyframes serpBlink { 50% { opacity: 0; } }
-.serp__list { list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-.serp__item { position: relative; padding: 14px 16px 14px 64px; border-radius: 16px; }
-.serp__item:not(.serp__item--me) { opacity: .45; }
-.serp__item--me { background: var(--pink); outline: 2px solid var(--orange); padding-top: 18px; padding-bottom: 18px; }
-.serp__rank { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border-radius: 50%; background: var(--orange); color: var(--white); font-family: var(--ff-num); font-size: 22px; display: grid; place-items: center; line-height: 1; }
-.serp__rank small { font-family: var(--ff); font-size: 10px; font-weight: 700; margin-left: 1px; }
-.serp__rank--sub { background: var(--beige); color: var(--text-2); font-size: 18px; width: 32px; height: 32px; left: 18px; }
-.serp__url { font-size: 12px; color: var(--muted); }
-.serp__ttl { font-size: 16px; font-weight: 700; color: #1a0dab; line-height: 1.5; margin-top: 2px; }
-.serp__item--me .serp__ttl { font-size: 17px; }
-.serp__desc { font-size: 13px; color: var(--text-2); line-height: 1.6; margin-top: 4px; }
-.serp__cv { position: absolute; right: 14px; top: 14px; background: var(--orange); color: var(--white); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
-.serp__cv b { margin-left: 2px; }
-.serp__note { font-size: 11px; color: var(--muted); text-align: right; margin-top: 10px; }
-.serp__bubble { align-self: flex-start; margin: 18px 0 0 8px; background: var(--brown); color: var(--white); font-size: 16px; font-weight: 700; padding: 12px 18px; border-radius: 16px; position: relative; }
-.serp__bubble b { color: #FFB59F; font-size: 1.15em; }
-.serp__bubble::before { content: ""; position: absolute; left: 28px; top: -8px; border: 8px solid transparent; border-top: 0; border-bottom-color: var(--brown); }
-.journey { padding: 112px 0 0; }
-.journey .wrap, .doubts .wrap, .designs .wrap { padding: 0 104px; display: flex; flex-direction: column; gap: 48px; }
-.journey__steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr 1.25fr; gap: 20px; align-items: stretch; }
-.jstep { background: var(--white); border-radius: 24px; padding: 28px 26px; box-shadow: var(--shadow-soft); display: flex; flex-direction: column; gap: 14px; position: relative; opacity: .8; }
-.jstep__no { font-size: 13px; font-weight: 700; color: var(--muted); }
-.jstep__q { font-size: 18px; font-weight: 700; line-height: 1.6; color: var(--brown-2); }
-.jstep__a { font-size: 14px; line-height: 1.7; color: var(--text-2); margin-top: auto; }
-.jstep--goal { opacity: 1; background: var(--brown); color: var(--white); transform: scale(1.04); }
-.jstep--goal .jstep__no { color: #FFB59F; }
-.jstep--goal .jstep__q { color: var(--white); font-size: 22px; }
-.jstep--goal .jstep__a { color: var(--white); font-size: 16px; }
-.jstep__badge { position: absolute; top: -14px; right: 20px; background: var(--orange); color: var(--white); font-size: 13px; font-weight: 900; padding: 6px 14px; border-radius: 999px; }
-.journey__bottom { text-align: center; font-size: 20px; line-height: 1.8; color: var(--brown-2); }
-.journey__bottom b { color: var(--orange); font-weight: 900; }
-.doubts { padding: 112px 0 0; }
-.doubts__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
-.doubt { background: var(--white); border-radius: 24px; padding: 32px 28px; box-shadow: var(--shadow-soft); display: flex; flex-direction: column; gap: 16px; }
-.doubt__q { font-size: 24px; font-weight: 900; line-height: 1.5; position: relative; padding-left: 40px; }
-.doubt__q::before { content: "Q"; position: absolute; left: 0; top: 2px; font-family: var(--ff-num); color: var(--orange); font-size: 30px; line-height: 1; }
-.doubt__a { font-size: 14px; line-height: 1.8; color: var(--text-2); border-top: 1px dashed var(--line); padding-top: 16px; word-break: auto-phrase; }
-.doubt__a b { display: block; font-size: 18px; color: var(--orange); font-weight: 900; margin-bottom: 6px; }
-.doubt__a a { display: inline-block; margin-top: 6px; color: var(--orange); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
-.designs { padding: 112px 0 0; }
-.designs__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
-.design { background: var(--white); border-radius: 24px; padding: 32px 28px; box-shadow: var(--shadow-soft); display: flex; flex-direction: column; gap: 12px; }
-.design__no { font-family: var(--ff-num); font-size: 40px; line-height: 1; color: var(--orange); }
-.design__ttl { font-size: 20px; font-weight: 900; line-height: 1.5; word-break: auto-phrase; }
-.design__txt { font-size: 14px; line-height: 1.8; color: var(--text-2); word-break: auto-phrase; }
-.sim { margin-top: 112px; }
-@media (max-width: 1279px) { .journey .wrap, .doubts .wrap, .designs .wrap { padding: 0 64px; } }
-@media (max-width: 1023px) {
-  .journey__steps, .doubts__grid, .designs__grid { grid-template-columns: 1fr; max-width: 560px; margin: 0 auto; width: 100%; }
-  .jstep--goal { transform: none; }
-}
-@media (max-width: 767px) {
-  .fv__visual--serp { aspect-ratio: auto !important; margin: 0 !important; }
-  .serp { padding: 16px 14px 10px; border-radius: 20px; }
-  .serp__bar { padding: 10px 14px; gap: 8px; }
-  .serp__q { font-size: 15px; }
-  .serp__ic { width: 18px; height: 18px; }
-  .serp__list { margin-top: 12px; gap: 6px; }
-  .serp__item { padding: 10px 10px 10px 50px; border-radius: 12px; }
-  .serp__item--me { padding-top: 12px; padding-bottom: 12px; }
-  .serp__rank { width: 32px; height: 32px; left: 10px; font-size: 18px; }
-  .serp__rank--sub { width: 26px; height: 26px; left: 13px; font-size: 14px; }
-  .serp__ttl { font-size: 13px; } .serp__item--me .serp__ttl { font-size: 14px; padding-right: 64px; }
-  .serp__desc { font-size: 11px; }
-  .serp__cv { font-size: 10px; padding: 3px 8px; right: 10px; top: 10px; }
-  .serp__bubble { font-size: 13px; padding: 9px 14px; margin: 12px 0 0 4px; }
-  .journey, .doubts, .designs { padding-top: 64px; }
-  .journey .wrap, .doubts .wrap, .designs .wrap { padding: 0 var(--gutter); gap: 28px; }
-  .jstep { padding: 20px; border-radius: 18px; gap: 8px; }
-  .jstep__q { font-size: 16px; } .jstep--goal .jstep__q { font-size: 19px; }
-  .journey__bottom { font-size: 15px; }
-  .doubt { padding: 22px 20px; border-radius: 18px; gap: 12px; }
-  .doubt__q { font-size: 19px; padding-left: 32px; } .doubt__q::before { font-size: 24px; }
-  .doubt__a b { font-size: 16px; }
-  .design { padding: 22px 20px; border-radius: 18px; } .design__no { font-size: 30px; } .design__ttl { font-size: 17px; }
-  .sim { margin-top: 64px; }
-}
-
-/* build7: FV 検索UIカルーセル */
-.serpcar { position: relative; }
-.serpcar__track { display: grid; }
-.serpcar__track > .serp { grid-area: 1 / 1; opacity: 0; visibility: hidden; transform: translateY(8px); transition: opacity .6s ease, transform .6s ease, visibility 0s linear .6s; }
-.serpcar__track > .serp.is-active { opacity: 1; visibility: visible; transform: none; transition: opacity .6s ease, transform .6s ease, visibility 0s; }
-.serpcar__track > .serp .serp__note { display: none; }
-.serpcar__foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; padding: 0 8px; }
-.serpcar__foot .serp__note { margin: 0; }
-.serpcar__dots { display: flex; gap: 8px; }
-.serpcar__dots button { width: 10px; height: 10px; border-radius: 999px; border: 0; padding: 0; background: var(--line); cursor: pointer; transition: width .3s, background .3s; }
-.serpcar__dots button[aria-selected="true"] { width: 28px; background: var(--orange); }
-.serpcar .serp.is-typing .serp__q { display: inline-block; overflow: hidden; vertical-align: bottom; animation: serpType 1s steps(14) both; }
-@keyframes serpType { from { max-width: 0; } to { max-width: 20em; } }
-@media (prefers-reduced-motion: reduce) { .serpcar__track > .serp { transition: none; } .serpcar .serp.is-typing .serp__q { animation: none; } }
-/* journey 見出し */
-.journey__pre { display: block; width: fit-content; margin: 0 auto 10px; font-size: .62em; color: var(--white); background: var(--orange); padding: 2px 16px 4px; border-radius: 999px; transform: rotate(-3deg); }
-/* 業態別のミニ検索UI */
-.segs { padding-top: 112px; }
-.mserp { background: var(--cream, #FAF5EF); border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 8px; }
-.mserp__bar { display: flex; align-items: center; gap: 8px; background: var(--white); border: 1.5px solid var(--line); border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 700; color: var(--brown); white-space: nowrap; overflow: hidden; }
-.mserp__ic { width: 16px; height: 16px; color: var(--muted); flex: none; }
-.mserp__me { position: relative; background: var(--pink); outline: 2px solid var(--orange); border-radius: 12px; padding: 10px 12px 10px 52px; }
-.mserp__rank { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; border-radius: 50%; background: var(--orange); color: var(--white); font-family: var(--ff-num); font-size: 18px; display: grid; place-items: center; line-height: 1; }
-.mserp__rank small { font-family: var(--ff); font-size: 8px; font-weight: 700; }
-.mserp__url { font-size: 11px; color: var(--muted); }
-.mserp__ttl { font-size: 14px; font-weight: 700; color: #1a0dab; line-height: 1.5; padding-right: 72px; }
-.mserp__cv { position: absolute; right: 10px; top: 10px; background: var(--orange); color: var(--white); font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 999px; }
-.mserp__sub { display: flex; align-items: center; gap: 12px; padding: 4px 12px 4px 16px; opacity: .45; }
-.mserp__sub span { width: 24px; height: 24px; border-radius: 50%; background: var(--beige); color: var(--text-2); font-family: var(--ff-num); font-size: 13px; display: grid; place-items: center; flex: none; }
-.mserp__sub i { height: 8px; border-radius: 4px; background: var(--line); flex: 1; }
-.mserp__sub + .mserp__sub i { flex: .7; }
-@media (max-width: 767px) {
-  .serpcar__foot { margin-top: 10px; padding: 0 4px; }
-  .segs { padding-top: 64px; }
-  .mserp { padding: 12px; }
-  .mserp__bar { font-size: 13px; }
-  .mserp__ttl { font-size: 13px; }
-}
 </style>
 </head>
 <body>
@@ -331,61 +207,14 @@
 <section class="fv">
   <div class="wrap fv__grid">
     <div class="fv__copy">
-      <p class="fv__catch">工務店・リフォーム会社のための集客SEO</p>
-      <h1 class="fv__title"><span class="nw">工務店の売上を</span><br><span class="nw"><span class="hl">爆増</span>させるSEO支援</span></h1>
-      <div class="fv__chip">売上から逆算する KPIコミット型SEO</div>
-      <p class="fv__lead">家づくりを決めた人が、最後に検索するのは<br class="pc-only">「地域名＋工務店 おすすめ」。<br>受注にいちばん近いその検索で上位を狙い、<br class="pc-only">資料請求・来場予約を増やします。</p>
+      <p class="fv__catch">住まいの業界を支援してきたCominkaが</p>
+      <h1 class="fv__title"><span class="nw">工務店・リフォームの</span><br><span class="nw"><span class="hl">資料請求</span>が増えるSEO。</span></h1>
+      <div class="fv__chip">KPIコミット型 SEO/AIO支援</div>
+      <p class="fv__lead">ポータルサイトや広告だけに頼らず、<br>自社サイトからの資料請求・来場予約・見積もり依頼を<br class="pc-only">増やす施策を、目標の件数から設計し、実装まで担います。</p>
       <div><a class="btn btn--lg" href="#contact">無料でSEOを相談する<span class="btn__arrow"><svg><use href="#i-arrow"/></svg></span></a></div>
     </div>
-    <div class="fv__visual fv__visual--serp">
-      <div class="serpcar" id="serpcar" aria-roledescription="carousel" aria-label="「おすすめ」検索で1位に表示されているイメージ">
-        <div class="serpcar__track">
-        <div class="serp is-active" role="img" aria-label="「富山市 工務店 おすすめ」の検索結果で、自社サイトが1位に表示されているイメージ">
-          <div class="serp__bar"><svg class="serp__ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span class="serp__q">富山市 工務店 おすすめ</span><span class="serp__caret" aria-hidden="true"></span></div>
-          <ol class="serp__list">
-            <li class="serp__item serp__item--me">
-              <span class="serp__rank">1<small>位</small></span>
-              <p class="serp__url">your-koumuten.jp › works</p>
-              <p class="serp__ttl">富山市で自然素材の注文住宅なら｜〇〇工務店</p>
-              <p class="serp__desc">施工事例150棟。完成見学会を毎月開催。資料請求で間取り集をプレゼント。</p>
-              <span class="serp__cv">資料請求<b>↑</b></span>
-            </li>
-            <li class="serp__item"><span class="serp__rank serp__rank--sub">2</span><p class="serp__url">hikaku-site.example › toyama</p><p class="serp__ttl">【2026年版】富山市のおすすめ工務店ランキング10選</p></li>
-            <li class="serp__item"><span class="serp__rank serp__rank--sub">3</span><p class="serp__url">portal.example › toyama</p><p class="serp__ttl">富山市の工務店一覧｜住宅情報ポータル</p></li>
-          </ol>
-        </div>
-        <div class="serp" role="img" aria-label="「金沢市 リフォーム おすすめ」の検索結果で、自社サイトが1位に表示されているイメージ">
-          <div class="serp__bar"><svg class="serp__ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span class="serp__q">金沢市 リフォーム おすすめ</span><span class="serp__caret" aria-hidden="true"></span></div>
-          <ol class="serp__list">
-            <li class="serp__item serp__item--me">
-              <span class="serp__rank">1<small>位</small></span>
-              <p class="serp__url">your-reform.jp › kanazawa</p>
-              <p class="serp__ttl">金沢市の水まわり・外壁リフォームなら｜〇〇リフォーム</p>
-              <p class="serp__desc">施工実績1,200件。見積もり無料、最短翌日に現地調査へ伺います。</p>
-              <span class="serp__cv">見積依頼<b>↑</b></span>
-            </li>
-            <li class="serp__item"><span class="serp__rank serp__rank--sub">2</span><p class="serp__url">reform-hikaku.example › kanazawa</p><p class="serp__ttl">金沢市のリフォーム会社おすすめ15選【口コミ比較】</p></li>
-            <li class="serp__item"><span class="serp__rank serp__rank--sub">3</span><p class="serp__url">portal.example › ishikawa</p><p class="serp__ttl">石川県のリフォーム会社一覧｜リフォーム情報ポータル</p></li>
-          </ol>
-        </div>
-        <div class="serp" role="img" aria-label="「高岡市 平屋 おすすめ」の検索結果で、自社サイトが1位に表示されているイメージ">
-          <div class="serp__bar"><svg class="serp__ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span class="serp__q">高岡市 平屋 おすすめ</span><span class="serp__caret" aria-hidden="true"></span></div>
-          <ol class="serp__list">
-            <li class="serp__item serp__item--me">
-              <span class="serp__rank">1<small>位</small></span>
-              <p class="serp__url">your-home.jp › hiraya</p>
-              <p class="serp__ttl">高岡市で平屋の注文住宅を建てるなら｜〇〇ホーム</p>
-              <p class="serp__desc">平屋の施工事例80棟。平屋モデルハウスの見学予約を受付中。</p>
-              <span class="serp__cv">来場予約<b>↑</b></span>
-            </li>
-            <li class="serp__item"><span class="serp__rank serp__rank--sub">2</span><p class="serp__url">ie-matome.example › takaoka</p><p class="serp__ttl">高岡市で平屋が得意な工務店おすすめ8選</p></li>
-            <li class="serp__item"><span class="serp__rank serp__rank--sub">3</span><p class="serp__url">portal.example › takaoka</p><p class="serp__ttl">高岡市の住宅会社一覧｜住宅情報ポータル</p></li>
-          </ol>
-        </div>
-        </div>
-        <div class="serpcar__foot"><div class="serpcar__dots" role="tablist"><button type="button" role="tab" aria-label="1枚目" aria-selected="true"></button><button type="button" role="tab" aria-label="2枚目"></button><button type="button" role="tab" aria-label="3枚目"></button></div><p class="serp__note">※検索結果の表示イメージです</p></div>
-      </div>
-      <p class="serp__bubble">受注にいちばん近い検索で、<b>1位</b>に。</p>
+    <div class="fv__visual">
+      <div class="fv__arch"><img src="../images/fv-team.jpg" alt="古民家オフィスに集まるCominkaの支援チーム" width="1000" height="1120" fetchpriority="high"></div>
     </div>
   </div>
 </section>
@@ -408,8 +237,8 @@
     <div class="results__panel">
       <div class="sec-head reveal">
         <p class="eyebrow">導入実績</p>
-        <h2 class="sec-title">住まいの業界で、<br class="sp-only"><span class="c-orange">検索上位</span>を<br class="sp-only">とってきました。</h2>
-        <p class="sec-lead">住宅設備メーカーから地域の工務店・リフォーム会社まで。<br class="pc-only">「キッチン 隠す 収納」6位など、家づくりの検索で上位をとってきました。</p>
+        <h2 class="sec-title"><span class="nw">住宅設備メーカーから</span><span class="nw">工務店まで、</span><br><span class="nw">住まいの業界の<span class="c-orange">集客</span>を</span><br class="sp-only">伸ばしてきました。</h2>
+        <p class="sec-lead">大手住宅設備メーカーのサイト改善から、地域の工務店・リフォーム会社の記事集客まで。<br class="pc-only">約200社の支援で積み上げた「反響の出し方」を、貴社にも。</p>
       </div>
       <div class="marquee" aria-label="導入企業ロゴ"><div class="marquee__track"></div></div>
       <div class="rcar">
@@ -492,90 +321,53 @@
   </div>
 </section>
 
-<!-- ===== インサイト：家づくりの検索3段階 ===== -->
-<section class="journey" id="insight">
+<!-- ===== 業界のお悩み（住宅・不動産） ===== -->
+<section class="worries" id="worries">
   <div class="wrap">
     <div class="sec-head reveal">
-      <p class="eyebrow">家づくりの検索、3つの段階</p>
-      <h2 class="sec-title"><span class="journey__pre">実は！</span>一番資料請求が<br class="sp-only">生まれるのは<br><span class="c-orange">「おすすめ」</span>を調べたとき</h2>
+      <p class="eyebrow">よくあるお悩み</p>
+      <h2 class="sec-title"><span class="nw">工務店・リフォーム会社の</span><br class="sp-only">集客、<br class="pc-only">こんなお悩みは<br class="sp-only">ありませんか？</h2>
     </div>
-    <ol class="journey__steps">
-      <li class="jstep reveal"><p class="jstep__no">STEP 1｜情報収集</p><p class="jstep__q">「注文住宅 とは」<br>「平屋 間取り」</p><p class="jstep__a">読まれても、<br class="pc-only">依頼先はまだ決めていない</p></li>
-      <li class="jstep reveal"><p class="jstep__no">STEP 2｜比較検討</p><p class="jstep__q">「注文住宅 費用 相場」<br>「工務店 ハウスメーカー 違い」</p><p class="jstep__a">予算と候補を<br class="pc-only">絞りはじめる</p></li>
-      <li class="jstep jstep--goal reveal"><p class="jstep__no">STEP 3｜依頼先を決める</p><p class="jstep__q">「富山市 工務店 おすすめ」</p><p class="jstep__a"><b>資料請求・来場予約に<br class="pc-only">いちばん近い</b></p><span class="jstep__badge">ここで1位に</span></li>
-    </ol>
-    <p class="journey__bottom reveal">多くのSEOは、STEP1の記事を増やすだけ。<br><b>Cominkaは、<br class="sp-only">STEP3で選ばれることから逆算します。</b></p>
+    <ul class="worries__grid">
+      <li class="worry reveal"><span class="worry__no">01</span><div><p class="worry__txt"><em>ポータル費</em>が、<span class="nw">上がる一方。</span></p><p class="worry__cause">原因：自社サイトから反響が取れていない</p></div></li>
+      <li class="worry reveal"><span class="worry__no">02</span><div><p class="worry__txt">事例を載せても、<span class="nw"><em>資料請求ゼロ</em>。</span></p><p class="worry__cause">原因：事例から資料請求への導線がない</p></div></li>
+      <li class="worry reveal"><span class="worry__no">03</span><div><p class="worry__txt">地元の検索で、<span class="nw"><em>競合に負ける</em>。</span></p><p class="worry__cause">原因：対応エリアごとのページが足りない</p></div></li>
+      <li class="worry reveal"><span class="worry__no">04</span><div><p class="worry__txt">改善案はある。<span class="nw"><em>直す人がいない</em>。</span></p><p class="worry__cause">原因：提案する会社と、直す担当が別々</p></div></li>
+    </ul>
+    <p class="worries__bridge reveal">記事の「量」では、解決しません。<br><b>必要なのは「設計」と「実装」です。</b></p>
   </div>
 </section>
 
-
-
-
-
-
-<!-- ===== 「おすすめ」で1位を狙う3つの設計 ===== -->
-<section class="designs" id="designs">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">Cominkaのやり方</p>
-      <h2 class="sec-title">「おすすめ」で1位を狙う、<br class="sp-only">3つの設計。</h2>
-    </div>
-    <div class="designs__grid">
-      <article class="design reveal"><p class="design__no">01</p><p class="design__ttl">狙う「おすすめ」検索を決める</p><p class="design__txt">対応エリア×業態（注文住宅・平屋・リフォームなど）で、受注につながる検索を洗い出し、優先順位をつけます。</p></article>
-      <article class="design reveal"><p class="design__no">02</p><p class="design__ttl">「選ばれる理由」をページに揃える</p><p class="design__txt">施工事例・価格の目安・保証・お客様の声など、比較される情報を一か所にまとめ、上位に出る理由をつくります。</p></article>
-      <article class="design reveal"><p class="design__no">03</p><p class="design__ttl">1位と資料請求を、同時に設計する</p><p class="design__txt">上位表示だけで終わらせず、資料請求・来場予約までの導線を整え、受注につなげます。</p></article>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 業態別：「おすすめ」検索 ===== -->
+<!-- ===== 業態別の設計（工務店・リフォーム） ===== -->
 <section class="segs" id="segments">
   <div class="wrap">
     <div class="sec-head reveal">
       <p class="eyebrow">業態別の進め方</p>
-      <h2 class="sec-title">あなたの業態の<br class="sp-only">「おすすめ」でも、<br>上位を狙えます。</h2>
+      <h2 class="sec-title">業態ごとに、<br class="sp-only">狙う検索と増やす成果を<br class="sp-only">設計します。</h2>
     </div>
     <div class="segs__grid">
       <article class="seg reveal">
         <p class="seg__ttl">工務店・ハウスメーカー</p>
-        <div class="mserp" aria-hidden="true">
-          <div class="mserp__bar"><svg class="mserp__ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>富山市 注文住宅 おすすめ</span></div>
-          <div class="mserp__me"><span class="mserp__rank">1<small>位</small></span><p class="mserp__url">貴社サイト</p><p class="mserp__ttl">富山市の注文住宅なら</p><span class="mserp__cv">資料請求<b>↑</b></span></div>
-          <div class="mserp__sub"><span>2</span><i></i></div>
-          <div class="mserp__sub"><span>3</span><i></i></div>
-        </div>
         <dl class="seg__dl">
-          <div><dt>狙う「おすすめ」検索</dt><dd><span class="nw">「地域名＋工務店 おすすめ」</span><span class="nw">「地域名＋注文住宅 おすすめ」</span><span class="nw">「地域名＋平屋 おすすめ」</span></dd></div>
+          <div><dt>狙う検索の例</dt><dd>「地域名＋注文住宅」「地域名＋工務店」「平屋 間取り」</dd></div>
           <div><dt>増やす成果</dt><dd>資料請求・来場予約</dd></div>
-          <div><dt>主な施策</dt><dd>対応エリアのページ、施工事例ページ、「おすすめ」検索で比較される情報の整理と資料請求への導線</dd></div>
+          <div><dt>主な施策</dt><dd>対応エリアのページ、施工事例ページ、間取り・家づくりのコラムから資料請求への導線</dd></div>
         </dl>
       </article>
       <article class="seg reveal">
         <p class="seg__ttl">リフォーム会社</p>
-        <div class="mserp" aria-hidden="true">
-          <div class="mserp__bar"><svg class="mserp__ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>金沢市 外壁塗装 おすすめ</span></div>
-          <div class="mserp__me"><span class="mserp__rank">1<small>位</small></span><p class="mserp__url">貴社サイト</p><p class="mserp__ttl">金沢市の外壁塗装なら</p><span class="mserp__cv">見積依頼<b>↑</b></span></div>
-          <div class="mserp__sub"><span>2</span><i></i></div>
-          <div class="mserp__sub"><span>3</span><i></i></div>
-        </div>
         <dl class="seg__dl">
-          <div><dt>狙う「おすすめ」検索</dt><dd><span class="nw">「地域名＋リフォーム会社 おすすめ」</span><span class="nw">「地域名＋外壁塗装 おすすめ」</span><span class="nw">「地域名＋水まわりリフォーム おすすめ」</span></dd></div>
+          <div><dt>狙う検索の例</dt><dd>「地域名＋リフォーム」「外壁塗装 費用」「キッチン リフォーム 相場」</dd></div>
           <div><dt>増やす成果</dt><dd>見積もり依頼・現地調査の申し込み</dd></div>
           <div><dt>主な施策</dt><dd>工事別のページ、費用・相場のコンテンツ、施工事例から見積もり依頼への導線</dd></div>
         </dl>
       </article>
       <article class="seg reveal">
         <p class="seg__ttl">住宅設備・建材メーカー</p>
-        <div class="mserp" aria-hidden="true">
-          <div class="mserp__bar"><svg class="mserp__ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>システムキッチン おすすめ</span></div>
-          <div class="mserp__me"><span class="mserp__rank">1<small>位</small></span><p class="mserp__url">貴社サイト</p><p class="mserp__ttl">システムキッチンの選び方</p><span class="mserp__cv">カタログ請求<b>↑</b></span></div>
-          <div class="mserp__sub"><span>2</span><i></i></div>
-          <div class="mserp__sub"><span>3</span><i></i></div>
-        </div>
         <dl class="seg__dl">
-          <div><dt>狙う「おすすめ」検索</dt><dd><span class="nw">「商品カテゴリ＋おすすめ」</span><span class="nw">「設備名＋おすすめ メーカー」</span><span class="nw">「設備名＋比較」</span></dd></div>
+          <div><dt>狙う検索の例</dt><dd>「商品カテゴリ名」「設備名＋比較」「設備名＋選び方」</dd></div>
           <div><dt>増やす成果</dt><dd>ショールーム予約・カタログ請求・問い合わせ</dd></div>
-          <div><dt>主な施策</dt><dd>商品カテゴリページの改善、比較・選び方コンテンツ、問い合わせ導線の見直し</dd></div>
+          <div><dt>主な施策</dt><dd>商品カテゴリページの改善、内部リンクの整理、問い合わせ導線の見直し</dd></div>
         </dl>
       </article>
     </div>
@@ -587,19 +379,20 @@
   <div class="wrap">
     <p class="eyebrow eyebrow--left reveal">他社SEOとの違い</p>
     <div class="statement__heads reveal">
-      <h2 class="statement__to"><span class="hl">売上を</span><br><span class="hl">爆増させる<br class="sp-only">SEO支援</span></h2>
+      <p class="statement__from"><s>記事数で選ぶSEO</s>から、</p>
+      <h2 class="statement__to"><span class="hl">成果で選ぶSEO</span>へ。</h2>
     </div>
     <div class="statement__body">
-      <p class="reveal">SEO会社を選ぶとき、<br>記事の本数で<br class="sp-only">比較していませんか？</p>
-      <p class="reveal">反響が生まれるのは、<br>「地域名＋工務店 おすすめ」<span class="nw">のような、</span><br><em>依頼先を決める検索</em>です。</p>
-      <p class="reveal">Cominkaは、売上・資料請求の目標から逆算して、<br class="pc-only">どの検索で何位をとるべきかを設計する<br>「KPIコミット型SEO」です。</p>
+      <p class="reveal">SEO会社を選ぶとき、<br>記事制作本数や施策メニューで<br>比較していませんか？</p>
+      <p class="reveal">Cominkaは、<br class="sp-only">決まった施策を提供する<br><em>パッケージ型ではありません。</em></p>
+      <p class="reveal">売上・問い合わせ・商談数から<br class="sp-only">逆算して、<br class="pc-only">必要な施策を設計する<br>「KPIコミット型SEO/AIO支援」<br class="sp-only">です。</p>
     </div>
     <div class="achieve reveal">
       <p class="achieve__tag">Cominka｜KPIコミット型が達成すること</p>
       <ul class="achieve__list">
-        <li><span class="achieve__ic"><svg style="color:#E24624"><use href="#i-check"/></svg></span><span class="achieve__txt">「おすすめ」で上位表示</span></li>
-        <li><span class="achieve__ic"><svg style="color:#E24624"><use href="#i-check"/></svg></span><span class="achieve__txt">資料請求・来場予約の増加</span></li>
-        <li><span class="achieve__ic"><svg style="color:#E24624"><use href="#i-check"/></svg></span><span class="achieve__txt">受注・売上の増加</span></li>
+        <li><span class="achieve__ic"><svg style="color:#E24624"><use href="#i-check"/></svg></span><span class="achieve__txt">売上の増加</span></li>
+        <li><span class="achieve__ic"><svg style="color:#E24624"><use href="#i-check"/></svg></span><span class="achieve__txt">問い合わせ数の増加</span></li>
+        <li><span class="achieve__ic"><svg style="color:#E24624"><use href="#i-check"/></svg></span><span class="achieve__txt">必要な施策の選定</span></li>
       </ul>
     </div>
   </div>
@@ -734,15 +527,14 @@
   </div>
 </section>
 
-
 <!-- ===== 06 シミュレーション ===== -->
 <section class="sim" id="simulation">
   <div class="panel-wrap">
     <div class="sim__panel">
       <div class="sec-head reveal">
-        <p class="sim__tag">売上から逆算する、30秒シミュレーション</p>
+        <p class="sim__tag">30秒でわかる、SEO投資の回収ライン</p>
         <h2 class="sim__title">SEO投資は、<span class="c-orange" id="hs-ttl">何棟の受注増</span>で<br class="sp-only">回収できるか。</h2>
-        <p class="sim__desc">1件あたりの粗利と、増やしたい受注数を入れるだけ。<br>SEO投資の回収ラインと、毎月必要な<span id="hs-desc">資料請求・来場</span>の数がわかります。<br>その数から、どの「おすすめ」検索で何位をとるべきかを設計します。</p>
+        <p class="sim__desc">1件あたりの粗利と、増やしたい受注数を入れるだけ。<br>SEO投資の回収ラインと、毎月必要な<span id="hs-desc">資料請求・来場</span>の数がわかります。</p>
       </div>
 
       <div class="sim-card reveal">
@@ -797,7 +589,6 @@
     </div>
   </div>
 </section>
-
 <script>
 (function () {
   var $ = function (id) { return document.getElementById(id); };
@@ -1065,7 +856,6 @@
       <h2 class="sec-title">よくある質問</h2>
     </div>
     <div class="faq__list">
-      <details class="qa reveal" open><summary><span class="qa__q">Q</span>「おすすめ」検索で、必ず1位になりますか？<span class="qa__tgl" aria-hidden="true"></span></summary><p class="qa__a">順位は検索エンジンが決めるため、お約束はできません。1位を狙うためのキーワード選定・ページ改善・導線設計を、毎月の順位と反響を見ながら続けます。</p></details>
       <details class="qa reveal" open><summary><span class="qa__q">Q</span>地域密着の工務店でも対応できますか？<span class="qa__tgl" aria-hidden="true"></span></summary><p class="qa__a">はい。対応エリアの地域名と住まいのキーワードの組み合わせから、反響につながるページを優先して整えます。</p></details>
       <details class="qa reveal" open><summary><span class="qa__q">Q</span>施工事例や資料請求ページの改善もできますか？<span class="qa__tgl" aria-hidden="true"></span></summary><p class="qa__a">はい。記事だけでなく、施工事例・モデルハウス・資料請求ページへの導線改善まで対応します。</p></details>
       <details class="qa reveal" open><summary><span class="qa__q">Q</span>KPIコミットとは、成果保証ですか？<span class="qa__tgl" aria-hidden="true"></span></summary><p class="qa__a">KPIを起点に戦略設計・実行・改善を進める支援方針です。数値成果を無条件に保証するものではありません。</p></details>
@@ -1083,7 +873,7 @@
   <div class="panel-wrap">
     <div class="contact__panel">
       <p class="contact__eb">CONTACT</p>
-      <h2 class="contact__ttl">「おすすめ」で選ばれる<br class="sp-only">方法を、<br>無料でお伝えします。</h2>
+      <h2 class="contact__ttl"><span class="ob">「</span>何をすれば<br class="sp-only">反響を増やせるか<span class="cb">」</span><br>無料でお伝えします。</h2>
       <p class="contact__lead">現在のサイト状況と目標の反響数をもとに、優先すべき施策を一緒に整理します。<br class="pc-only">狙うキーワードや予算が決まっていない段階でも、お気軽にご相談ください。</p>
       <div class="contact__gifts"><span><b>特典1</b>SEOシミュレーションレポート</span><span><b>特典2</b>AIO対策のアドバイス</span></div>
       <div class="form-card">
@@ -1137,27 +927,5 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
 <script src="../js/main.js" defer></script>
-<script>
-(function () {
-  var car = document.getElementById('serpcar'); if (!car) return;
-  var slides = car.querySelectorAll('.serp'), dots = car.querySelectorAll('.serpcar__dots button');
-  var cur = 0, timer = null, reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-  function go(n) {
-    slides[cur].classList.remove('is-active', 'is-typing'); dots[cur].removeAttribute('aria-selected');
-    cur = (n + slides.length) % slides.length;
-    slides[cur].classList.add('is-active'); dots[cur].setAttribute('aria-selected', 'true');
-    if (!reduce) { void slides[cur].offsetWidth; slides[cur].classList.add('is-typing'); }
-  }
-  function start() { stop(); timer = setInterval(function () { go(cur + 1); }, 4500); }
-  function stop() { if (timer) clearInterval(timer); timer = null; }
-  Array.prototype.forEach.call(dots, function (d, i) { d.addEventListener('click', function () { go(i); start(); }); });
-  car.addEventListener('mouseenter', stop); car.addEventListener('mouseleave', start);
-  var x0 = null;
-  car.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
-  car.addEventListener('touchend', function (e) { if (x0 === null) return; var dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) { go(cur + (dx < 0 ? 1 : -1)); start(); } x0 = null; });
-  document.addEventListener('visibilitychange', function () { document.hidden ? stop() : start(); });
-  start();
-})();
-</script>
 </body>
 </html>
