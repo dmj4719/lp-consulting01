@@ -199,6 +199,8 @@
 .jstep__badge { position: absolute; top: -14px; right: 20px; background: var(--orange); color: var(--white); font-size: 13px; font-weight: 900; padding: 6px 14px; border-radius: 999px; }
 .journey__bottom { text-align: center; font-size: 20px; line-height: 1.8; color: var(--brown-2); }
 .journey__bottom b { color: var(--orange); font-weight: 900; }
+.journey__highlight { display: block; margin-top: 20px; background: linear-gradient(135deg, var(--orange), #e85d04); color: var(--white); font-size: 28px; font-weight: 900; line-height: 1.6; padding: 24px 32px; border-radius: 16px; text-align: center; letter-spacing: .04em; box-shadow: 0 4px 24px rgba(232,93,4,.25); }
+.journey__highlight small { display: block; font-size: 15px; font-weight: 700; opacity: .85; margin-bottom: 4px; }
 .doubts { padding: 112px 0 0; }
 .doubts__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
 .doubt { background: var(--white); border-radius: 24px; padding: 32px 28px; box-shadow: var(--shadow-soft); display: flex; flex-direction: column; gap: 16px; }
@@ -239,6 +241,7 @@
   .jstep { padding: 20px; border-radius: 18px; gap: 8px; }
   .jstep__q { font-size: 16px; } .jstep--goal .jstep__q { font-size: 19px; }
   .journey__bottom { font-size: 15px; }
+  .journey__highlight { font-size: 22px; padding: 20px 20px; }
   .doubt { padding: 22px 20px; border-radius: 18px; gap: 12px; }
   .doubt__q { font-size: 19px; padding-left: 32px; } .doubt__q::before { font-size: 24px; }
   .doubt__a b { font-size: 16px; }
@@ -504,7 +507,8 @@
       <li class="jstep reveal"><p class="jstep__no">STEP 2｜比較検討</p><p class="jstep__q">「注文住宅 費用 相場」<br>「工務店 ハウスメーカー 違い」</p><p class="jstep__a">予算と候補を<br class="pc-only">絞りはじめる</p></li>
       <li class="jstep jstep--goal reveal"><p class="jstep__no">STEP 3｜依頼先を決める</p><p class="jstep__q">「◯◯市 工務店 おすすめ」<br>「◯◯市 リフォーム おすすめ」</p><p class="jstep__a"><b>資料請求・来場予約に<br class="pc-only">いちばん近い</b></p><span class="jstep__badge">ここで1位に</span></li>
     </ol>
-    <p class="journey__bottom reveal">多くのSEOは、STEP1の記事を増やすだけ。<br><b>Cominkaは、<br class="sp-only">STEP3で選ばれることから逆算します。</b></p>
+    <p class="journey__bottom reveal">多くのSEOは、STEP1の記事を増やすだけ。</p>
+    <div class="journey__highlight reveal"><small>▼ Cominkaが違うのはここ</small>STEP3で選ばれることから<br class="sp-only">逆算します。</div>
   </div>
 </section>
 
@@ -539,8 +543,8 @@
       <article class="seg reveal">
         <p class="seg__ttl">工務店・ハウスメーカー</p>
         <div class="mserp" aria-hidden="true">
-          <div class="mserp__bar"><svg class="mserp__ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>富山市 注文住宅 おすすめ</span></div>
-          <div class="mserp__me"><span class="mserp__rank">1<small>位</small></span><p class="mserp__url">貴社サイト › blog</p><p class="mserp__ttl">富山市の注文住宅おすすめランキング10選</p><span class="mserp__cv">資料請求<b>↑</b></span></div>
+          <div class="mserp__bar"><svg class="mserp__ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>◯◯市 注文住宅 おすすめ</span></div>
+          <div class="mserp__me"><span class="mserp__rank">1<small>位</small></span><p class="mserp__url">貴社サイト › blog</p><p class="mserp__ttl">◯◯市の注文住宅おすすめランキング10選</p><span class="mserp__cv">資料請求<b>↑</b></span></div>
           <div class="mserp__sub"><span>2</span><i></i></div>
           <div class="mserp__sub"><span>3</span><i></i></div>
         </div>
@@ -553,8 +557,8 @@
       <article class="seg reveal">
         <p class="seg__ttl">リフォーム会社</p>
         <div class="mserp" aria-hidden="true">
-          <div class="mserp__bar"><svg class="mserp__ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>金沢市 外壁塗装 比較</span></div>
-          <div class="mserp__me"><span class="mserp__rank">1<small>位</small></span><p class="mserp__url">貴社サイト › blog</p><p class="mserp__ttl">金沢市の外壁塗装おすすめ12選【費用比較】</p><span class="mserp__cv">見積依頼<b>↑</b></span></div>
+          <div class="mserp__bar"><svg class="mserp__ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>◯◯市 外壁塗装 比較</span></div>
+          <div class="mserp__me"><span class="mserp__rank">1<small>位</small></span><p class="mserp__url">貴社サイト › blog</p><p class="mserp__ttl">◯◯市の外壁塗装おすすめ12選【費用比較】</p><span class="mserp__cv">見積依頼<b>↑</b></span></div>
           <div class="mserp__sub"><span>2</span><i></i></div>
           <div class="mserp__sub"><span>3</span><i></i></div>
         </div>
